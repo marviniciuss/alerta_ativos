@@ -28,7 +28,7 @@ jobs:
       env:
         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         CHAT_ID: ${{ secrets.CHAT_ID }}
-      run: python monitor.py
+      run: python monitora_ativos.py
 
     - name: Salvar Memória (Commit e Push)
       run: |
